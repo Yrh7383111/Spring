@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+    <!-- Define your beans here -->
+    
+    <!-- Define the dependency -->
+    <bean id="fs"
+		  class="Dependency_Injection_Setter.HappyFortuneService">
+    	</bean>
+    
+ 	<bean id="coach"
+		  class="Dependency_Injection_Setter.TrackCoach">
+ 		
+ 		<!-- Set up constructor injection -->
+ 		<constructor-arg ref="fs"/>
+ 	</bean>
+
+    <bean id="cc"
+          class="Dependency_Injection_Setter.CricketCoach">
+        
+        <!-- Set up setter injection -->
+        <property name="fortuneService" ref="fs"/>
+    </bean>
+</beans>
