@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Bean_Scopes_Lifecycles/Bean_Scopes_Lifecycles.iml" filepath="$PROJECT_DIR$/Bean_Scopes_Lifecycles/Bean_Scopes_Lifecycles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bean_Scopes_Lifecycles_Annotation/Bean_Scopes_Lifecycles_Annotation.iml" filepath="$PROJECT_DIR$/Bean_Scopes_Lifecycles_Annotation/Bean_Scopes_Lifecycles_Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bean_Scopes_Lifecycles_XML/Bean_Scopes_Lifecycles_XML.iml" filepath="$PROJECT_DIR$/Bean_Scopes_Lifecycles_XML/Bean_Scopes_Lifecycles_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Configuration_Java_Code/Configuration_Java_Code.iml" filepath="$PROJECT_DIR$/Configuration_Java_Code/Configuration_Java_Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dependency_Injection_Annotations/Dependency_Injection_Annotations.iml" filepath="$PROJECT_DIR$/Dependency_Injection_Annotations/Dependency_Injection_Annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dependency_Injection_XML/Dependency_Injection_XML.iml" filepath="$PROJECT_DIR$/Dependency_Injection_XML/Dependency_Injection_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" filepath="$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" filepath="$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Source Code.iml" filepath="$PROJECT_DIR$/.idea/Source Code.iml" />
     </modules>
   </component>
