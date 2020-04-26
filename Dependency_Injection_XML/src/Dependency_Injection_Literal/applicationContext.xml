@@ -16,14 +16,14 @@
  		  class="Dependency_Injection_Literal.TrackCoach">
  		
  		<!-- Set up constructor injection -->
- 		<constructor-arg ref="fs" />
+ 		<constructor-arg ref="fs"/>
  	</bean>
 
     <bean id="cc"
           class="Dependency_Injection_Literal.CricketCoach">
         
         <!-- Set up setter injection -->
-        <property name="fortuneService" ref="fs" />
+        <property name="fortuneService" ref="fs"/>
 
         <!-- Inject literal values -->
         <property name="emailAddress" value="thebestcoach@luv2code.com"/>
