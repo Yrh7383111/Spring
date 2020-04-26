@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" filepath="$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" filepath="$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Source Code.iml" filepath="$PROJECT_DIR$/.idea/Source Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_MVC/Spring_MVC.iml" filepath="$PROJECT_DIR$/Spring_MVC/Spring_MVC.iml" />
     </modules>
   </component>
 </project>
