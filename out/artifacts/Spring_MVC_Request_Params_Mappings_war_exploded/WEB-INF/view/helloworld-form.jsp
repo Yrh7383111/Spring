@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<form action="/hello/processFormVersionThree" method="GET">
+	<form action="${pageContext.request.contextPath}/hello/processFormVersionThree" method="GET">
 		<label>
 			<input type="text" name="studentName" placeholder="What's your name?" />
 		</label>

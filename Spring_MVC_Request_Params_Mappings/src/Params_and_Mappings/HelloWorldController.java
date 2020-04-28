@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
+
 @Controller
 @RequestMapping("/hello")
 public class HelloWorldController
@@ -29,14 +30,13 @@ public class HelloWorldController
 	// New a controller method to read form data and
 	// Add data to the model
 	@RequestMapping("/processFormVersionThree")
-	public String processFormVersionThree(@RequestParam("studentName") String name,
-										  Model model) 
+	public String processFormVersionThree(@RequestParam("studentName") String name, Model model)
 	{
 		// Convert the data to all caps
 		name = name.toUpperCase();
 
 		// Create the message
-		String result = "Hey My Friend from v3! " + name;
+		String result = "Handsome " + name;
 
 		// Add message to the model
 		model.addAttribute("message", result);

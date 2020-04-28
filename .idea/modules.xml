@@ -10,9 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" filepath="$PROJECT_DIR$/Inersion_of_Control_XML/Inersion_of_Control_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" filepath="$PROJECT_DIR$/Inversion_of_Control_Annotation/Inversion_of_Control_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Source Code.iml" filepath="$PROJECT_DIR$/.idea/Source Code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Controller_View/Spring_MVC_Controller_View.iml" filepath="$PROJECT_DIR$/Spring_MVC_Controller_View/Spring_MVC_Controller_View.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Controller_and_View/Spring_MVC_Controller_and_View.iml" filepath="$PROJECT_DIR$/Spring_MVC_Controller_and_View/Spring_MVC_Controller_and_View.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Request_Param_Mapping/Spring_MVC_Request_Param_Mapping.iml" filepath="$PROJECT_DIR$/Spring_MVC_Request_Param_Mapping/Spring_MVC_Request_Param_Mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Form_and_Data_Binding/Spring_MVC_Form_and_Data_Binding.iml" filepath="$PROJECT_DIR$/Spring_MVC_Form_and_Data_Binding/Spring_MVC_Form_and_Data_Binding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" filepath="$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" />
     </modules>
   </component>
