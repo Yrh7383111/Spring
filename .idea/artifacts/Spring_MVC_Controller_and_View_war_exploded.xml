@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring_MVC_Controller_and_View:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_MVC_Controller_and_View_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Spring_MVC_Controller_and_View/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring_MVC_Controller_and_View" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-aop-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-aspects-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-beans-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-context-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-context-indexer-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-context-support-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-core-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-expression-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-instrument-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-jcl-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-jdbc-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-jms-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-messaging-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-orm-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-oxm-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-test-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-tx-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-web-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-webflux-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-webmvc-5.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Spring Jar Files/spring-framework-5.2.5.RELEASE/libs/spring-websocket-5.2.5.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
