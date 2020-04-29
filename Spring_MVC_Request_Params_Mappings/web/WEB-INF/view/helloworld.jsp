@@ -6,7 +6,7 @@ Hello World of Spring!
 
 <br><br>
 
-Student name: ${param.studentName}
+Form_Validation.Student name: ${param.studentName}
 
 <br><br>
 

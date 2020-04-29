@@ -10,7 +10,11 @@
 
 <br><br>
 
-<a href="student/showForm">Form_Validation.Student form</a>
+<a href="student/showForm">Form Validation.Student form</a>
+
+<br><br>
+
+<a href="customer/showForm">Form Validation.Customer form</a>
 </body>
 
 </html>
