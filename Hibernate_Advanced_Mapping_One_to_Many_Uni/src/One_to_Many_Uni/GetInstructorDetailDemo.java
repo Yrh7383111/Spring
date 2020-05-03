@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Uni;
 
 
 import org.hibernate.Session;
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-public class CreateDemo
+public class GetInstructorDetailDemo
 {
 	public static void main(String[] args)
 	{
@@ -22,24 +22,14 @@ public class CreateDemo
 		
 		try
 		{
-			// Initialization
-//			Instructor instructor = new Instructor("Chad", "Darby", "darby@luv2code.com");
-//			InstructorDetail instructorDetail = new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code!!!");
-
-			Instructor instructor = new Instructor("Madhu", "Patel", "madhu@luv2code.com");
-			InstructorDetail instructorDetail = new InstructorDetail("http://www.youtube.com", "Guitar");
-//
-			// Associate the objects
-			instructor.setInstructorDetail(instructorDetail);
-
-
 			// Start a transaction
 			session.beginTransaction();
-			
-			// Save the instructor
-			// Note: this will ALSO save the details object because of CascadeType.ALL
-			System.out.println("Saving instructor: " + instructor);
-			session.save(instructor);					
+
+			// Get the instructor detail object
+			int theId = 2999;
+			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, theId);
+			System.out.println("tempInstructorDetail: " + tempInstructorDetail);
+			System.out.println("the associated instructor: " + tempInstructorDetail.getInstructor());
 			
 			// Commit transaction
 			session.getTransaction().commit();
@@ -51,6 +41,8 @@ public class CreateDemo
 		}
 		finally
 		{
+			// Handle connection leak issue
+			session.close();
 			factory.close();
 		}
 	}

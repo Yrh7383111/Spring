@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Uni;
 
 
 import org.hibernate.Session;
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-public class DeleteInstructorDetailDemo
+public class DeleteCourseDemo
 {
 	public static void main(String[] args)
 	{
@@ -15,30 +15,25 @@ public class DeleteInstructorDetailDemo
 								.configure("hibernate.cfg.xml")
 								.addAnnotatedClass(Instructor.class)
 								.addAnnotatedClass(InstructorDetail.class)
+								.addAnnotatedClass(Course.class)
 								.buildSessionFactory();
 		
-		// create session
+		// Create session
 		Session session = factory.getCurrentSession();
 		
 		try
 		{
 			// Start a transaction
 			session.beginTransaction();
-
-			// Get the instructor detail object
-			int id = 4;
-			InstructorDetail instructorDetail = session.get(InstructorDetail.class, id);
-			System.out.println("instructorDetail: " + instructorDetail);
-			System.out.println("the associated instructor: " + instructorDetail.getInstructor());
 			
-			// Now let's delete the instructor detail
-			System.out.println("Deleting instructorDetail: " + instructorDetail);
-
-			// Remove the associated object reference
-			// Break bi-directional link
-			instructorDetail.getInstructor().setInstructorDetail(null);
-			session.delete(instructorDetail);
+			// Get a course
+			int id = 10;
+			Course course = session.get(Course.class, id);
 			
+			// Delete course
+			System.out.println("Deleting course: " + course);
+			session.delete(course);
+
 			// Commit transaction
 			session.getTransaction().commit();
 			System.out.println("Done!");

@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Bi;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

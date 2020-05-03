@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Uni;
 
 
 import org.hibernate.Session;
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-public class GetInstructorDetailDemo
+public class DeleteDemo
 {
 	public static void main(String[] args)
 	{
@@ -25,11 +25,19 @@ public class GetInstructorDetailDemo
 			// Start a transaction
 			session.beginTransaction();
 
-			// Get the instructor detail object
-			int theId = 2999;
-			InstructorDetail tempInstructorDetail = session.get(InstructorDetail.class, theId);
-			System.out.println("tempInstructorDetail: " + tempInstructorDetail);
-			System.out.println("the associated instructor: " + tempInstructorDetail.getInstructor());
+			// Get instructor by primary key / id
+			int id = 1;
+			Instructor instructor = session.get(Instructor.class, id);
+			System.out.println("Found instructor: " + instructor);
+			
+			// Delete the instructors
+			if (instructor != null)
+			{
+				System.out.println("Deleting: " + instructor);
+				
+				// Note: will ALSO delete associated "details" object because of CascadeType.ALL
+				session.delete(instructor);				
+			}
 			
 			// Commit transaction
 			session.getTransaction().commit();
@@ -39,10 +47,7 @@ public class GetInstructorDetailDemo
 		{
 			e.printStackTrace();
 		}
-		finally
-		{
-			// Handle connection leak issue
-			session.close();
+		finally {
 			factory.close();
 		}
 	}

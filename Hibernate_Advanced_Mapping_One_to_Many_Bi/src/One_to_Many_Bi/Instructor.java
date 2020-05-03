@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Bi;
 
 
 import javax.persistence.*;

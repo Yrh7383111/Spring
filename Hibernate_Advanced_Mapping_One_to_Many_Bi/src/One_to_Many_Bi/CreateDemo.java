@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Bi;
 
 
 import org.hibernate.Session;
@@ -6,8 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 
-
-public class CreateCoursesDemo
+public class CreateDemo
 {
 	public static void main(String[] args)
 	{
@@ -16,7 +15,6 @@ public class CreateCoursesDemo
 								.configure("hibernate.cfg.xml")
 								.addAnnotatedClass(Instructor.class)
 								.addAnnotatedClass(InstructorDetail.class)
-								.addAnnotatedClass(Course.class)
 								.buildSessionFactory();
 		
 		// Create session
@@ -24,24 +22,24 @@ public class CreateCoursesDemo
 		
 		try
 		{
+			// Initialization
+//			Instructor instructor = new Instructor("Chad", "Darby", "darby@luv2code.com");
+//			InstructorDetail instructorDetail = new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code!!!");
+
+			Instructor instructor = new Instructor("Madhu", "Patel", "madhu@luv2code.com");
+			InstructorDetail instructorDetail = new InstructorDetail("http://www.youtube.com", "Guitar");
+//
+			// Associate the objects
+			instructor.setInstructorDetail(instructorDetail);
+
+
 			// Start a transaction
 			session.beginTransaction();
 			
-			// Get the instructor from db
-			int id = 1;
-			Instructor instructor = session.get(Instructor.class, id);		
-			
-			// create some courses
-			Course course1 = new Course("Air Guitar - The Ultimate Guide");
-			Course course2 = new Course("The Pinball Masterclass");
-			
-			// add courses to instructor
-			instructor.add(course1);
-			instructor.add(course2);
-			
-			// save the courses
-			session.save(course1);
-			session.save(course2);
+			// Save the instructor
+			// Note: this will ALSO save the details object because of CascadeType.ALL
+			System.out.println("Saving instructor: " + instructor);
+			session.save(instructor);					
 			
 			// Commit transaction
 			session.getTransaction().commit();
@@ -53,7 +51,6 @@ public class CreateCoursesDemo
 		}
 		finally
 		{
-			session.close();
 			factory.close();
 		}
 	}

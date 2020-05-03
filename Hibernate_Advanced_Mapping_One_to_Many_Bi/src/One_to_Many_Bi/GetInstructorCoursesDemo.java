@@ -1,4 +1,4 @@
-package One_to_Many;
+package One_to_Many_Bi;
 
 
 import org.hibernate.Session;
@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 
 
-public class DeleteCourseDemo
+public class GetInstructorCoursesDemo
 {
 	public static void main(String[] args)
 	{
@@ -27,14 +27,14 @@ public class DeleteCourseDemo
 			// Start a transaction
 			session.beginTransaction();
 			
-			// Get a course
-			int id = 10;
-			Course course = session.get(Course.class, id);
+			// Get the instructor from db
+			int id = 1;
+			Instructor instructor = session.get(Instructor.class, id);
+			System.out.println("Instructor: " + instructor);
 			
-			// Delete course
-			System.out.println("Deleting course: " + course);
-			session.delete(course);
-
+			// Get courses for the instructor
+			System.out.println("Courses: " + instructor.getCourses());
+			
 			// Commit transaction
 			session.getTransaction().commit();
 			System.out.println("Done!");
