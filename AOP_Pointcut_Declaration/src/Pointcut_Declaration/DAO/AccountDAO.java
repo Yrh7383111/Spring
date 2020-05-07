@@ -1,9 +1,8 @@
-package Pointcut_Expression.DAO;
+package Pointcut_Declaration.DAO;
 
 
-import Pointcut_Expression.Account;
+import Pointcut_Declaration.Account;
 import org.springframework.stereotype.Component;
-
 
 
 @Component

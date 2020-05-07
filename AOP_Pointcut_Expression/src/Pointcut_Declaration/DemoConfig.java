@@ -1,4 +1,4 @@
-package Pointcut_Expression;
+package Pointcut_Declaration;
 
 
 import org.springframework.context.annotation.ComponentScan;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @EnableAspectJAutoProxy
-@ComponentScan("Pointcut_Expression")
+@ComponentScan("Pointcut_Declaration")
 public class DemoConfig
 {
 
