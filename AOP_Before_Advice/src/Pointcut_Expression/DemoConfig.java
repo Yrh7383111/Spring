@@ -1,4 +1,4 @@
-package Before_Advice;
+package Pointcut_Expression;
 
 
 import org.springframework.context.annotation.ComponentScan;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @EnableAspectJAutoProxy
-@ComponentScan("Before_Advice")
+@ComponentScan("Pointcut_Expression")
 public class DemoConfig
 {
 
