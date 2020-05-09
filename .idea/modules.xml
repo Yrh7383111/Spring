@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOP_After_Returning_Advice/AOP_After_Returning_Advice.iml" filepath="$PROJECT_DIR$/AOP_After_Returning_Advice/AOP_After_Returning_Advice.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Before_Advice/AOP_Before_Advice.iml" filepath="$PROJECT_DIR$/AOP_Before_Advice/AOP_Before_Advice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP_Join_Point/AOP_Join_Point.iml" filepath="$PROJECT_DIR$/AOP_Join_Point/AOP_Join_Point.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Ordering_Aspect/AOP_Ordering_Aspect.iml" filepath="$PROJECT_DIR$/AOP_Ordering_Aspect/AOP_Ordering_Aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Pointcut_Declaration/AOP_Pointcut_Declaration.iml" filepath="$PROJECT_DIR$/AOP_Pointcut_Declaration/AOP_Pointcut_Declaration.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Pointcut_Expression/AOP_Pointcut_Expression.iml" filepath="$PROJECT_DIR$/AOP_Pointcut_Expression/AOP_Pointcut_Expression.iml" />
