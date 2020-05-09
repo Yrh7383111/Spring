@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AOP_Before_Advice/AOP_Before_Advice.iml" filepath="$PROJECT_DIR$/AOP_Before_Advice/AOP_Before_Advice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOP_Ordering_Aspect/AOP_Ordering_Aspect.iml" filepath="$PROJECT_DIR$/AOP_Ordering_Aspect/AOP_Ordering_Aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Pointcut_Declaration/AOP_Pointcut_Declaration.iml" filepath="$PROJECT_DIR$/AOP_Pointcut_Declaration/AOP_Pointcut_Declaration.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Pointcut_Expression/AOP_Pointcut_Expression.iml" filepath="$PROJECT_DIR$/AOP_Pointcut_Expression/AOP_Pointcut_Expression.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Scopes_Lifecycles_Annotation/Bean_Scopes_Lifecycles_Annotation.iml" filepath="$PROJECT_DIR$/Bean_Scopes_Lifecycles_Annotation/Bean_Scopes_Lifecycles_Annotation.iml" />
