@@ -54,6 +54,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/../Hibernate ORM Jar Files/hibernate-release-5.4.14.Final/lib/optional/c3p0/c3p0-0.9.5.3.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../Hibernate ORM Jar Files/hibernate-release-5.4.14.Final/lib/optional/c3p0/hibernate-c3p0-5.4.14.Final.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../Hibernate ORM Jar Files/hibernate-release-5.4.14.Final/lib/optional/c3p0/mchange-commons-java-0.2.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../Aspect J/aspectjweaver-1.9.5.jar" />
         </element>
       </element>
     </root>
