@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring_Security_Start" />
+        <module name="Spring_Security_Custom_Login_Form" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="App" target="1.5" />
+      <module name="Jackson" target="1.7" />
       <module name="Maven" target="1.5" />
+      <module name="Spring_Security_Custom_Login_Form" target="1.7" />
       <module name="Spring_Security_Start" target="1.7" />
       <module name="Test" target="1.7" />
       <module name="Web" target="1.7" />
