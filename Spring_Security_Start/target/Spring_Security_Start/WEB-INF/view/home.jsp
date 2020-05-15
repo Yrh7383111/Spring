@@ -1,3 +1,5 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
 <html>
 
 <head>
@@ -9,7 +11,13 @@
 
 	<hr>
 
-	Welcome to the luv2code company home page!
+	<p>
+		Welcome to the luv2code company home page!
+	</p>
+
+	<form:form action="logout" method="POST">
+		<input type="submit" value="Logout" />
+	</form:form>
 </body>
 
 </html>

@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Start/Spring_Security_Start.iml" filepath="$PROJECT_DIR$/Spring_Security_Start/Spring_Security_Start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Security_User_Role/Spring_Security_User_Role.iml" filepath="$PROJECT_DIR$/Spring_Security_User_Role/Spring_Security_User_Role.iml" />
     </modules>
   </component>
 </project>
