@@ -1,5 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
 
 <html>
 
@@ -7,7 +7,9 @@
 	<title>Custom Login Page</title>
 	
 	<style>
-		.failed {color: red;}
+		.failed {
+			color: red;
+		}
 	</style>
 	
 </head>

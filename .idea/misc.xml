@@ -4,7 +4,12 @@
     <file type="web" url="file://$PROJECT_DIR$/App" />
     <file type="web" url="file://$PROJECT_DIR$/Jackson" />
     <file type="web" url="file://$PROJECT_DIR$/Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security_App" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Form" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Login_Form/Spring_Security_Bootstrap_Login_Form" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Custom_Login_Form" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Demo" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Start" />
     <file type="web" url="file://$PROJECT_DIR$/Test" />
     <file type="web" url="file://$PROJECT_DIR$/Web" />
@@ -17,6 +22,8 @@
       <list>
         <option value="$PROJECT_DIR$/Spring_Security_Start/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Security_Custom_Login_Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Security_Bootstrap_Login_Form/Spring_Security_Bootstrap_Login_Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Security_Bootstrap_Form/pom.xml" />
       </list>
     </option>
   </component>

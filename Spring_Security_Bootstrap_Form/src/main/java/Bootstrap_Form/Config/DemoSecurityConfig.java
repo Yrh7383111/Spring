@@ -1,4 +1,4 @@
-package Custom_Login_Form.Config;
+package Bootstrap_Form.Config;
 
 
 import org.springframework.context.annotation.Configuration;
@@ -35,6 +35,9 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter
 				.formLogin()
 				.loginPage("/showMyLoginPage")
 				.loginProcessingUrl("/authenticateTheUser")
+				.permitAll()
+				.and()
+				.logout()
 				.permitAll();
 	}
 }

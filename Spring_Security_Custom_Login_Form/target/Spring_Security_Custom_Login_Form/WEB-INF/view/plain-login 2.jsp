@@ -1,5 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
 
 <html>
 
@@ -7,7 +7,9 @@
 	<title>Custom Login Page</title>
 	
 	<style>
-		.failed {color: red;}
+		.failed {
+			color: red;
+		}
 	</style>
 	
 </head>
@@ -15,7 +17,7 @@
 <body>
 
 <h3>My Custom Login Page</h3>
-	<form:form action="authenticateTheUser" method="POST">
+	<form:form action="${pageContext.request.contextPath}/authenticateTheUser" method="POST">
 		<c:if test="${param.error != null}">
 			<i class="failed">Sorry! You entered invalid username/password.</i>
 		</c:if>
