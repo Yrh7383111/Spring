@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring_Security_Restricted_Access:war">
+    <output-path>$PROJECT_DIR$/Spring_Security_Restricted_Access/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring_Security_Restricted_Access</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Spring_Security_Restricted_Access.war">
+      <element id="artifact" artifact-name="Spring_Security_Restricted_Access:war exploded" />
+    </root>
+  </artifact>
+</component>

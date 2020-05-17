@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring_Security_Restricted_Access" />
         <module name="Spring_Security_Bootstrap_Form" />
         <module name="Spring_Security" />
         <module name="Spring_Security_Start" />
@@ -23,6 +24,7 @@
       <module name="Spring_Security_Bootstrap_Login_Form" target="1.7" />
       <module name="Spring_Security_Custom_Login_Form" target="1.7" />
       <module name="Spring_Security_Demo" target="8" />
+      <module name="Spring_Security_Restricted_Access" target="1.7" />
       <module name="Spring_Security_Start" target="1.7" />
       <module name="Spring_Security_User_Role" target="1.7" />
       <module name="Test" target="1.7" />

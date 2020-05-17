@@ -28,7 +28,7 @@
 				</div>
 
 				<div style="padding-top: 30px" class="panel-body">
-					<form:form action="authenticateTheUser" method="POST" class="form-horizontal">
+					<form:form action="/authenticateTheUser" method="POST" class="form-horizontal">
 					    <div class="form-group">
 					        <div class="col-xs-15">
 					            <div>

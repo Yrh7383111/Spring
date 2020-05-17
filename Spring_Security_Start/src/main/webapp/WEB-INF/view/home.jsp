@@ -15,7 +15,7 @@
 		Welcome to the luv2code company home page!
 	</p>
 
-	<form:form action="logout" method="POST">
+	<form:form action="/logout" method="POST">
 		<input type="submit" value="Logout" />
 	</form:form>
 </body>

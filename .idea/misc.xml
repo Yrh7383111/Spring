@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Login_Form/Spring_Security_Bootstrap_Login_Form" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Custom_Login_Form" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Demo" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Restricted_Access" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_Start" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_User_Role" />
     <file type="web" url="file://$PROJECT_DIR$/Test" />
@@ -26,6 +27,7 @@
         <option value="$PROJECT_DIR$/Spring_Security_Bootstrap_Login_Form/Spring_Security_Bootstrap_Login_Form/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Security_Bootstrap_Form/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Security_User_Role/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Security_Restricted_Access/pom.xml" />
       </list>
     </option>
   </component>
