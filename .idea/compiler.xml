@@ -10,6 +10,7 @@
         <module name="Spring_Security_Bootstrap_Form" />
         <module name="Spring_Security" />
         <module name="Spring_Security_Start" />
+        <module name="Spring_Security_Database_Authentication" />
         <module name="Spring_Security_Custom_Login_Form" />
         <module name="Spring_Security_User_Role" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="Spring_Security_Bootstrap_Form" target="1.7" />
       <module name="Spring_Security_Bootstrap_Login_Form" target="1.7" />
       <module name="Spring_Security_Custom_Login_Form" target="1.7" />
+      <module name="Spring_Security_Database_Authentication" target="1.7" />
       <module name="Spring_Security_Demo" target="8" />
       <module name="Spring_Security_Restricted_Access" target="1.7" />
       <module name="Spring_Security_Start" target="1.7" />

@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" filepath="$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Security_Database_Authentication/Spring_Security_Database_Authentication.iml" filepath="$PROJECT_DIR$/Spring_Security_Database_Authentication/Spring_Security_Database_Authentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Restricted_Access/Spring_Security_Restricted_Access.iml" filepath="$PROJECT_DIR$/Spring_Security_Restricted_Access/Spring_Security_Restricted_Access.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Start/Spring_Security_Start.iml" filepath="$PROJECT_DIR$/Spring_Security_Start/Spring_Security_Start.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_User_Role/Spring_Security_User_Role.iml" filepath="$PROJECT_DIR$/Spring_Security_User_Role/Spring_Security_User_Role.iml" />
