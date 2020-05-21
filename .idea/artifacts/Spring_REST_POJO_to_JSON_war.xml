@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Spring_REST_POJO_to_JSON:war">
+    <output-path>$PROJECT_DIR$/Spring_REST_POJO_to_JSON/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Spring_REST_POJO_to_JSON</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Spring_REST_POJO_to_JSON.war">
+      <element id="artifact" artifact-name="Spring_REST_POJO_to_JSON:war exploded" />
+    </root>
+  </artifact>
+</component>

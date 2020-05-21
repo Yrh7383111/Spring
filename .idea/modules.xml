@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Form_and_Data_Binding/Spring_MVC_Form_and_Data_Binding.iml" filepath="$PROJECT_DIR$/Spring_MVC_Form_and_Data_Binding/Spring_MVC_Form_and_Data_Binding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" filepath="$PROJECT_DIR$/Spring_MVC_Request_Params_Mappings/Spring_MVC_Request_Params_Mappings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_REST_Controller/Spring_REST_Controller.iml" filepath="$PROJECT_DIR$/Spring_REST_Controller/Spring_REST_Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_REST_POJO_to_JSON/Spring_REST_POJO_to_JSON.iml" filepath="$PROJECT_DIR$/Spring_REST_POJO_to_JSON/Spring_REST_POJO_to_JSON.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Bootstrap_Form/Spring_Security_Bootstrap_Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" filepath="$PROJECT_DIR$/Spring_Security_Custom_Login_Form/Spring_Security_Custom_Login_Form.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Security_Database_Authentication/Spring_Security_Database_Authentication.iml" filepath="$PROJECT_DIR$/Spring_Security_Database_Authentication/Spring_Security_Database_Authentication.iml" />
