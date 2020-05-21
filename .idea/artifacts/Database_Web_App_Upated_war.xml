@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Database_Web_App_Upated:war">
+    <output-path>$PROJECT_DIR$/Database_Web_App_Upated/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Database_Web_App_Upated</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Database_Web_App_Upated.war">
+      <element id="artifact" artifact-name="Database_Web_App_Upated:war exploded" />
+    </root>
+  </artifact>
+</component>

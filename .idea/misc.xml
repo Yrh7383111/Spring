@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/App" />
+    <file type="web" url="file://$PROJECT_DIR$/Database_Web_App_Upated" />
     <file type="web" url="file://$PROJECT_DIR$/Jackson" />
     <file type="web" url="file://$PROJECT_DIR$/Maven" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security" />

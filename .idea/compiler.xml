@@ -17,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="App" target="1.5" />
+      <module name="Database_Web_App_Upated" target="1.7" />
       <module name="Jackson" target="1.7" />
       <module name="Maven" target="1.5" />
       <module name="Spring_Security" target="1.7" />
