@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring_Security_Restricted_Access" />
         <module name="Spring_Security_Bootstrap_Form" />
+        <module name="Spring_REST_Controller" />
         <module name="Spring_Security" />
         <module name="Spring_Security_Start" />
         <module name="Spring_Security_Database_Authentication" />
@@ -20,6 +21,8 @@
       <module name="Database_Web_App_Upated" target="1.7" />
       <module name="Jackson" target="1.7" />
       <module name="Maven" target="1.5" />
+      <module name="Spring_REST_Controller" target="1.7" />
+      <module name="Spring_REST_Data_Binding" target="1.7" />
       <module name="Spring_Security" target="1.7" />
       <module name="Spring_Security_App" target="1.7" />
       <module name="Spring_Security_Bootstrap_Form" target="1.7" />
