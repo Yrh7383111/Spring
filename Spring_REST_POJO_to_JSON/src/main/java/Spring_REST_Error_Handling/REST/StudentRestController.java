@@ -1,6 +1,6 @@
-package Spring_REST_POJO_to_JSON.REST;
+package Spring_REST_Error_Handling.REST;
 
-import Spring_REST_POJO_to_JSON.Entity.Student;
+import Spring_REST_Error_Handling.Entity.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

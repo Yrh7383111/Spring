@@ -1,4 +1,4 @@
-package Spring_REST_POJO_to_JSON.Config;
+package Spring_REST_Error_Handling.Config;
 
 
 import org.springframework.context.annotation.ComponentScan;
@@ -7,10 +7,9 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
-
 @Configuration
 @EnableWebMvc
-@ComponentScan("Spring_REST_POJO_to_JSON")
+@ComponentScan("Spring_REST_Error_Handling")
 public class DemoAppConfig implements WebMvcConfigurer
 {
 

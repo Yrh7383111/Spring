@@ -1,4 +1,4 @@
-package Spring_REST_POJO_to_JSON.Config;
+package Spring_REST_Error_Handling.Config;
 
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;

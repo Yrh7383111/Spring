@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Jackson" />
     <file type="web" url="file://$PROJECT_DIR$/Maven" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_REST_Controller" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_REST_Error_Handling" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_REST_POJO_to_JSON" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_Security_App" />
@@ -35,6 +36,7 @@
         <option value="$PROJECT_DIR$/Spring_Security_Database_Authentication/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_REST_Controller/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_REST_POJO_to_JSON/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_REST_Error_Handling/pom.xml" />
       </list>
     </option>
   </component>

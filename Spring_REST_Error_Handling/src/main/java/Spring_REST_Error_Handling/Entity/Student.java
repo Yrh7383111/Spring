@@ -1,4 +1,4 @@
-package Spring_REST_POJO_to_JSON.Entity;
+package Spring_REST_Error_Handling.Entity;
 
 
 

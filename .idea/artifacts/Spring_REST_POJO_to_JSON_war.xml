@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Spring_REST_POJO_to_JSON.war">
+    <root id="archive" name="Spring_REST_Error_Handling.war">
       <element id="artifact" artifact-name="Spring_REST_POJO_to_JSON:war exploded" />
     </root>
   </artifact>

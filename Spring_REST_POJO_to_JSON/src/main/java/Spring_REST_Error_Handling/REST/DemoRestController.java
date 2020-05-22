@@ -1,4 +1,4 @@
-package Spring_REST_POJO_to_JSON.REST;
+package Spring_REST_Error_Handling.REST;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

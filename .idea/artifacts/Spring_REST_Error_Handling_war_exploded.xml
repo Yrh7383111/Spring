@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Spring_REST_POJO_to_JSON:war exploded">
-    <output-path>$PROJECT_DIR$/Spring_REST_POJO_to_JSON/target/Spring_REST_Error_Handling</output-path>
+  <artifact type="exploded-war" name="Spring_REST_Error_Handling:war exploded">
+    <output-path>$PROJECT_DIR$/Spring_REST_Error_Handling/target/Spring_REST_Error_Handling</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>Spring_REST_POJO_to_JSON</module>
+        <module>Spring_REST_Error_Handling</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Spring_REST_POJO_to_JSON" />
+          <element id="module-output" name="Spring_REST_Error_Handling" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.5.RELEASE" />
@@ -28,9 +28,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/Spring_REST_POJO_to_JSON/target/Spring_REST_Error_Handling/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/Spring_REST_Error_Handling/target/Spring_REST_Error_Handling/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="Spring_REST_POJO_to_JSON/web/Web" />
+      <element id="javaee-facet-resources" facet="Spring_REST_Error_Handling/web/Web" />
     </root>
   </artifact>
 </component>
