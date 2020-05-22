@@ -5,7 +5,7 @@
 
 <hr>
 
-<a href="test/hello">Hello</a>
+<a href="/test/hello">Hello</a>
 
 </body>
 </html>

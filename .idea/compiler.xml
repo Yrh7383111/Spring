@@ -16,6 +16,7 @@
         <module name="Spring_REST_Error_Handling" />
         <module name="Spring_Security_Custom_Login_Form" />
         <module name="Spring_Security_User_Role" />
+        <module name="Real_Time_Database_App" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,9 @@
       <module name="Database_Web_App_Upated" target="1.7" />
       <module name="Jackson" target="1.7" />
       <module name="Maven" target="1.5" />
+      <module name="Real_Time_Database_App" target="1.7" />
+      <module name="Real_Time_Project" target="1.7" />
+      <module name="Spring_REST" target="1.7" />
       <module name="Spring_REST_Controller" target="1.7" />
       <module name="Spring_REST_Data_Binding" target="1.7" />
       <module name="Spring_REST_Error_Handling" target="1.7" />

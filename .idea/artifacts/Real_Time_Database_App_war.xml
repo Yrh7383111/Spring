@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Real_Time_Database_App:war">
+    <output-path>$PROJECT_DIR$/Real_Time_Database_App/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Real_Time_Database_App</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Real_Time_Database_App.war">
+      <element id="artifact" artifact-name="Real_Time_Database_App:war exploded" />
+    </root>
+  </artifact>
+</component>

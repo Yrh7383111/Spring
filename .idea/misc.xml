@@ -5,6 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/Database_Web_App_Upated" />
     <file type="web" url="file://$PROJECT_DIR$/Jackson" />
     <file type="web" url="file://$PROJECT_DIR$/Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/Real_Time_Database_App" />
+    <file type="web" url="file://$PROJECT_DIR$/Real_Time_Database_Project" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_REST" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_REST_Controller" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_REST_Error_Handling" />
     <file type="web" url="file://$PROJECT_DIR$/Spring_REST_POJO_to_JSON" />
@@ -37,7 +40,14 @@
         <option value="$PROJECT_DIR$/Spring_REST_Controller/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_REST_POJO_to_JSON/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_REST_Error_Handling/pom.xml" />
+        <option value="$PROJECT_DIR$/Real_Time_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/Real_Time_Database_App/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Real_Time_Database_Project/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

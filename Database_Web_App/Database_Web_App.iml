@@ -22,7 +22,7 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
-          <factory-entry name="Database_Web_App" value="83dddfdf-9c2e-4905-bba4-23ff042fa141" />
+          <factory-entry name="Database_Web_App" value="47d085c1-3345-4950-bdbe-39e6b5346d97" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

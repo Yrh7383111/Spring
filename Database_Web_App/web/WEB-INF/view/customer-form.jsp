@@ -8,11 +8,11 @@
 
 	<link type="text/css"
 		  rel="stylesheet"
-		  href="${pageContext.request.contextPath}/resources/css/style.css">
+		  href="/resources/css/style.css">
 
 	<link type="text/css"
 		  rel="stylesheet"
-		  href="${pageContext.request.contextPath}/resources/css/add-customer-style.css">
+		  href="/resources/css/add-customer-style.css">
 </head>
 
 
@@ -60,7 +60,7 @@
 		</form:form>
 
 		<p>
-			<a href="${pageContext.request.contextPath}/customer/list">Back to List</a>
+			<a href="/customer/list">Back to List</a>
 		</p>
 	</div>
 </body>
